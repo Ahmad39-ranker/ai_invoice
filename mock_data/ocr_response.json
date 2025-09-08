@@ -1,0 +1,13 @@
+{
+  "raw_text": "This is a sample invoice text from 'Sliced Invoices' to 'Test Business'. Invoice Number: INV-3337, Date: January 25, 2016, Due Date: January 31, 2016, Total: $93.50",
+  "extracted_fields": {
+    "vendor": "DEMO - Sliced Invoices",
+    "invoice_number": "INV-3337",
+    "invoice_date": "January 25, 2016",
+    "due_date": "January 31, 2016",
+    "total_due": 93.50,
+    "client": "Test Business",
+    "amount": 93.50,
+    "date": "2016-01-25"
+  }
+}

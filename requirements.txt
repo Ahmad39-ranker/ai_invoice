@@ -7,3 +7,11 @@ motor
 pydantic
 email-validator
 pydantic[email]
+fastapi
+uvicorn
+pymongo
+python-jose
+passlib
+motor
+pydantic
+email-validator

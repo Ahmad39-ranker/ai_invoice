@@ -5,8 +5,6 @@ python-jose[cryptography]
 passlib[bcrypt]
 motor
 pydantic
-email-validator
-pydantic[email]
 fastapi
 uvicorn
 pymongo

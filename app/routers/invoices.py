@@ -100,7 +100,7 @@ from app.dependencies import get_current_user
 from database.db import db
 from bson import ObjectId
 
-# Change the router prefix to "/user" as per the project requirements
+
 router = APIRouter(prefix="/user", tags=["user"])
 
 MOCK_OCR_RESPONSE_FILE = "mock_data/ocr_response.json"
@@ -171,7 +171,7 @@ async def get_prediction(invoice_id: str, current_user=Depends(get_current_user)
         language="en"
     )
 
-# Change the endpoint path to "/invoices" as per the project requirements
+
 @router.get("/invoices", response_model=list[InvoiceInDB])
 async def get_user_invoices(current_user=Depends(get_current_user)):
     invoices = db.db.invoices.find({"user_id": current_user.id}).sort("upload_timestamp", -1)

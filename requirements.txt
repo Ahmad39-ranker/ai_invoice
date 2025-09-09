@@ -13,3 +13,4 @@ passlib
 motor
 pydantic
 email-validator
+pydantic-settings
